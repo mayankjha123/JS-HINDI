@@ -39,3 +39,9 @@ console.log(typeof myObj);
 
  console.log(myName)
  console.log(anothername)
+
+ let user={
+    email: "user@gmail.com",
+    upi: "user@ybl"
+ }
+ console.log(user);
