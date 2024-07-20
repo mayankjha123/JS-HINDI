@@ -40,8 +40,15 @@ console.log(typeof myObj);
  console.log(myName)
  console.log(anothername)
 
- let user={
+ let userone={
     email: "user@gmail.com",
     upi: "user@ybl"
  }
- console.log(user);
+ //console.log(user);
+
+ userTwo=userone;
+ userTwo.email="mayank@google.com"
+
+ console.log(userTwo.email)
+ console.log(userone.email)
+
